@@ -1,0 +1,16 @@
+*gitignore*
+!.gitignore
+*.bak
+
+### Python ###
+# pytest, linter, cache, compiled code
+__pycache__/
+*.py[cod]
+*$py.class
+**/.pytest_cache
+.coverage
+/pytest.xml
+/clover.xml
+/coverage.xml
+htmlcov/
+.venv/
